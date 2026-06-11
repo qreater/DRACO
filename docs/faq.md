@@ -31,3 +31,7 @@ No. Every suggestion is a live model call. With no network, DRACO exits with cod
 ## Does it support Windows?
 
 DRACO runs anywhere Python 3.8+ runs, including Windows. Suggested commands, however, follow the conventions of the shell you describe in the query — say "in PowerShell" if you want PowerShell syntax.
+
+## Can DRACO suggest multi-step pipelines?
+
+Yes — describe the end goal and DRACO will chain commands with pipes where appropriate.
