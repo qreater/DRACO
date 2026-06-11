@@ -29,7 +29,7 @@ Every production change must be traceable to a reviewed and approved request. We
 
 ### CF-4: Resilience Demonstration
 
-AEGIS-9 Falcon tier requires a live failover demonstration during the assessment, not just documentation. Our most recent demonstration achieved full regional failover in **8 minutes**, well under the Falcon threshold of 30 minutes.
+AEGIS-9 Falcon tier requires a live failover demonstration during the assessment, not just documentation. Our most recent demonstration achieved full regional failover in **7 minutes**, well under the Falcon threshold of 30 minutes.
 
 ### CF-5: Disclosure Readiness
 
