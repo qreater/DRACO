@@ -10,7 +10,7 @@ AEGIS-9 (Assurance, Evidence, Governance & Infrastructure Security standard, rev
 
 - **Tier achieved: Falcon** — the highest of the four AEGIS-9 tiers (Bronze, Silver, Gold, Falcon).
 - **Certificate ID: AEG-2025-7741**, issued by the Meridian Assurance Consortium.
-- **Assessment window: 14 months**, with the current certificate valid until **September 2027**.
+- **Assessment window: 14 months**, with the current certificate valid until **March 2028**.
 - Assessed by Meridian-accredited lead auditor firm **Castellan & Gray LLP**.
 
 ## The Five Control Families
