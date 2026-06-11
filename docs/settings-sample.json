@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "temperature": 0.2,
+  "max_tokens": 256,
+  "retry_on_timeout": true,
+  "timeout_seconds": 30,
+  "interactive": {
+    "history_in_memory_only": true,
+    "exit_commands": ["exit", "quit"]
+  }
+}
