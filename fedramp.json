@@ -2,14 +2,13 @@
   "serviceIdentification": {
     "providerName": "Wolfia, Inc.",
     "serviceName": "Wolfia Trust Automation Platform",
-    "serviceAcronym": "WTAP-EXTRAKEYS",
+    "serviceAcronym": "WTAP-MINIMAL",
     "serviceDescription": "Automated FedRAMP trust center and continuous compliance evidence platform.",
     "certificationType": "Rev5",
     "fedRampPackageId": "FR2024001234",
     "ueiNumber": "ABC123DEF456GHI",
     "website": "https://wolfia.com",
-    "logo": "https://wolfia.com/logo.svg",
-    "internalNote": "not-in-cso-schema"
+    "logo": "https://wolfia.com/logo.svg"
   },
   "serviceProperties": {
     "serviceType": [
@@ -49,46 +48,5 @@
         "accessRequestInstructions": "Request via the trust center."
       }
     ]
-  },
-  "contactInformation": [
-    {
-      "contactType": "Primary",
-      "contactName": "Niyas Hameed",
-      "contactEmail": "niyas@wolfia.com",
-      "contactPhone": "+1-555-0100"
-    },
-    {
-      "contactType": "Security",
-      "contactName": "Security Team",
-      "contactEmail": "security@wolfia.com"
-    },
-    {
-      "contactType": "Sales",
-      "contactName": "Sales Team",
-      "contactEmail": "sales@wolfia.com"
-    }
-  ],
-  "assessor": {
-    "name": "Coalfire Federal",
-    "assessorID": "3PAO-COALFIRE-001"
-  },
-  "thirdPartyInformationResources": {
-    "certified": [
-      {
-        "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud (US)",
-        "useCase": "Infrastructure hosting"
-      }
-    ],
-    "nonCertified": [
-      {
-        "name": "OpenAI",
-        "provider": "OpenAI, L.L.C.",
-        "website": "https://openai.com",
-        "useCase": "LLM inference"
-      }
-    ]
-  },
-  "impactLevel": "Moderate",
-  "marketplaceUrl": "https://marketplace.fedramp.gov/products/FR2024001234",
-  "customVendorField": "preserved-verbatim-xyz"
+  }
 }
