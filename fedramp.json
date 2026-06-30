@@ -2,7 +2,7 @@
   "serviceIdentification": {
     "providerName": "Wolfia, Inc.",
     "serviceName": "Wolfia Trust Automation Platform",
-    "serviceAcronym": "WTAP-PARTIAL",
+    "serviceAcronym": "WTAP-EMPTYCONTACTS",
     "serviceDescription": "Automated FedRAMP trust center and continuous compliance evidence platform.",
     "certificationType": "Rev5",
     "fedRampPackageId": "FR2024001234",
@@ -48,5 +48,28 @@
         "accessRequestInstructions": "Request via the trust center."
       }
     ]
-  }
+  },
+  "contactInformation": [],
+  "assessor": {
+    "name": "Coalfire Federal",
+    "assessorID": "3PAO-COALFIRE-001"
+  },
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "AWS GovCloud (US)",
+        "useCase": "Infrastructure hosting"
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "OpenAI",
+        "provider": "OpenAI, L.L.C.",
+        "website": "https://openai.com",
+        "useCase": "LLM inference"
+      }
+    ]
+  },
+  "impactLevel": "Moderate",
+  "marketplaceUrl": "https://marketplace.fedramp.gov/products/FR2024001234"
 }
