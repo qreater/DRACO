@@ -1,1 +1,35 @@
-{ "broken": yes,,, ]]}
+{
+  "serviceIdentification": {
+    "providerName": "Acme Federal Cloud, LLC",
+    "serviceName": "Acme GovSuite",
+    "serviceAcronym": "AGS",
+    "serviceDescription": "Acme's FedRAMP High authorized government collaboration suite.",
+    "certificationType": "Rev5",
+    "fedRampPackageId": "FR9988776655",
+    "ueiNumber": "ZZZ999YYY888XXX",
+    "website": "https://acme.gov",
+    "logo": "https://acme.gov/logo.svg"
+  },
+  "serviceProperties": {
+    "serviceType": ["PaaS", "IaaS"],
+    "deploymentModel": "Government Community Cloud",
+    "digitalIdentityLevel": "IAL3/AAL3",
+    "businessCategory": ["Collaboration", "Productivity"],
+    "nextOngoingCertificationReportDate": "2027-03-15",
+    "trustCenter": {"repositoryType": ["Trust Center"], "url": "https://trust.acme.gov", "repositoryDescription": "Acme trust center.", "authenticationRequired": false},
+    "additionalRepositories": [
+      {"repositoryType": ["POA&M"], "url": "https://acme.gov/poam", "repositoryDescription": "Plan of action and milestones.", "authenticationRequired": true, "accessRequestInstructions": "Request via agency liaison."}
+    ]
+  },
+  "contactInformation": [
+    {"contactType": "Primary", "contactName": "Dana Govern", "contactEmail": "dana@acme.gov", "contactPhone": "+1-202-555-0199"},
+    {"contactType": "Security", "contactName": "Acme SOC", "contactEmail": "soc@acme.gov"}
+  ],
+  "assessor": {"name": "Schellman Federal", "assessorID": "3PAO-SCHELLMAN-042"},
+  "thirdPartyInformationResources": {
+    "certified": [{"fedRampCertifiedThirdPartyInformationResource": "Microsoft Azure Government", "useCase": "Hosting"}],
+    "nonCertified": [{"name": "Anthropic", "provider": "Anthropic PBC", "website": "https://anthropic.com", "useCase": "LLM inference"}]
+  },
+  "impactLevel": "High",
+  "marketplaceUrl": "https://marketplace.fedramp.gov/products/FR9988776655"
+}
