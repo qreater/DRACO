@@ -1,8 +1,7 @@
 {
   "serviceIdentification": {
     "providerName": "Wolfia, Inc.",
-    "serviceName": "Wolfia Trust Automation Platform",
-    "serviceAcronym": "WTAP-EMPTYCONTACTS",
+    "serviceAcronym": "WTAP-SHOULD-NOT-APPEAR",
     "serviceDescription": "Automated FedRAMP trust center and continuous compliance evidence platform.",
     "certificationType": "Rev5",
     "fedRampPackageId": "FR2024001234",
@@ -49,7 +48,24 @@
       }
     ]
   },
-  "contactInformation": [],
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "Niyas Hameed",
+      "contactEmail": "niyas@wolfia.com",
+      "contactPhone": "+1-555-0100"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Security Team",
+      "contactEmail": "security@wolfia.com"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Sales Team",
+      "contactEmail": "sales@wolfia.com"
+    }
+  ],
   "assessor": {
     "name": "Coalfire Federal",
     "assessorID": "3PAO-COALFIRE-001"
@@ -70,6 +86,6 @@
       }
     ]
   },
-  "impactLevel": "Moderate",
+  "impactLevel": "High",
   "marketplaceUrl": "https://marketplace.fedramp.gov/products/FR2024001234"
 }
