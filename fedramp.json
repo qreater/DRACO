@@ -1,7 +1,7 @@
 {
   "serviceIdentification": {
     "providerName": "Wolfia, Inc.",
-    "serviceName": "Wolfia Trust Automation Platform v2 (sync-test)",
+    "serviceName": "Wolfia Trust Automation Platform",
     "serviceAcronym": "WTAP",
     "serviceDescription": "Automated FedRAMP trust center and continuous compliance evidence platform.",
     "certificationType": "Rev5",
